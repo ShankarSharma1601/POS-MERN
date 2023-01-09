@@ -3,9 +3,13 @@ const morgan = require("morgan");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const dotenv = require("dotenv");
+const connectDB = require("./config/config");
 
 // dotenv config
 dotenv.config();
+
+// DataBase config
+connectDB();
 
 // rest Object
 const app = express();
