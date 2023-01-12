@@ -1,4 +1,4 @@
-import "antd/dist/reset.css";
+import "antd/dist/antd.min.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import ItemPage from "./pages/ItemPage";
